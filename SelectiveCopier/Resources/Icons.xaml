@@ -1,0 +1,32 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  Заглушки: используются, если системная иконка недоступна. Заменить на нормальные.  -->
+
+    <DrawingImage x:Key="FolderIcon">
+        <DrawingImage.Drawing>
+            <GeometryDrawing Brush="#FFD9A441">
+                <GeometryDrawing.Pen>
+                    <Pen Brush="#FF8A6420" Thickness="1" />
+                </GeometryDrawing.Pen>
+                <GeometryDrawing.Geometry>
+                    <RectangleGeometry Rect="1,1,14,14" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="FileIcon">
+        <DrawingImage.Drawing>
+            <GeometryDrawing Brush="#FF7FB0DE">
+                <GeometryDrawing.Pen>
+                    <Pen Brush="#FF3C6A94" Thickness="1" />
+                </GeometryDrawing.Pen>
+                <GeometryDrawing.Geometry>
+                    <EllipseGeometry Center="8,8" RadiusX="6.5" RadiusY="6.5" />
+                </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+</ResourceDictionary>

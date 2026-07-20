@@ -1,0 +1,10 @@
+﻿{
+  "CollectTypesWithAttributes": {
+    "Attributes": [
+      "SelectiveCopier.Infrastructure.AsSingletonAttribute"
+    ],
+    "NamespaceForGenerations": "SelectiveCopier",
+    "CollectToCache": false,
+    "Partial": true
+  }
+}
